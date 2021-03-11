@@ -1,0 +1,12 @@
+opam-version: "2.0"
+version: "0.1"
+maintainer: "dehos@univ-littoral.fr"
+authors: ["Julien Dehos"]
+homepage: "https://github.com/juliendehos/beurk"
+bug-reports: "https://github.com/juliendehos/beurk/issues"
+dev-repo: "git+https://github.com/juliendehos/beurk.git"
+license: "MIT"
+build: [
+  ["dune" "build" "bin/hello.exe" "-j" jobs]
+]
+

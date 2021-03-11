@@ -1,0 +1,9 @@
+(executables
+ (names hello)
+ (libraries base stdio))
+
+(install
+ (section bin)
+ (files 
+  (hello.exe as hello)))
+
