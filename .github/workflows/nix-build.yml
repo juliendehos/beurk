@@ -1,7 +1,7 @@
 on: [push]
 jobs:
   build-and-run:
-    runs-on: nixos/nix
+    container: nixos/nix
     steps:
       - uses: actions/checkout@v2
       - run: nix-build
