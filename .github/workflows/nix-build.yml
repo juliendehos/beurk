@@ -1,0 +1,7 @@
+jobs:
+  check-bats-version:
+    runs-on: nixos/nix
+    steps:
+      - run: nix-build
+      - run: ./result/bin/hello
+
