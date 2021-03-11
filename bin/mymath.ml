@@ -1,3 +1,3 @@
 
-let mul2 x = x * 21
+let mul2 x = x * 2
 
