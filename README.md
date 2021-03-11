@@ -3,6 +3,6 @@
 ```
 nix-shell
 dune build
-dune exec bin/hello.exe
+dune exec hello
 ```
 
