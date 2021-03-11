@@ -1,11 +1,11 @@
-name: "Test"
+name: "beurk actions"
 
 on:
   pull_request:
   push:
 
 jobs:
-  tests:
+  build-and-run:
     runs-on: ubuntu-latest
 
     steps:
