@@ -1,8 +1,9 @@
 on: [push]
 jobs:
-  check-bats-version:
+  build-and-run:
     runs-on: nixos/nix
     steps:
+      - uses: actions/checkout@v2
       - run: nix-build
       - run: ./result/bin/hello
 
