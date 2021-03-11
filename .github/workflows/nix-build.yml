@@ -1,3 +1,4 @@
+on: [push]
 jobs:
   check-bats-version:
     runs-on: nixos/nix
