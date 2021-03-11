@@ -2,11 +2,10 @@
 
 ```
 nix-shell
-dune build
 dune exec hello
 ```
 
-<https://www.ocaml.org/manual>
-<https://dev.realworldocaml.org>
-<https://ocamlverse.github.io>
+- <https://www.ocaml.org/manual>
+- <https://dev.realworldocaml.org>
+- <https://ocamlverse.github.io>
 
