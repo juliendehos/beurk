@@ -6,6 +6,7 @@ pkgs.ocamlPackages.buildDunePackage {
   minimumOCamlVersion = "4.10";
   src = ./.;
   buildInputs = with pkgs.ocamlPackages; [ 
+    ocamlbuild
     base
     stdio
     utop
