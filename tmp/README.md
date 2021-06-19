@@ -2,7 +2,7 @@
 <https://www.cs.cornell.edu/courses/cs3110/2021sp/textbook/>
 
 ```
-ocamlbuild hello.byte && ocamlrun hello.byte
+./run.sh hello.ml
 ```
 
 ```

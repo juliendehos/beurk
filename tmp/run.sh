@@ -1,7 +1,5 @@
 #!/bin/sh
 
-
-# check command line arguments
 if [ $# -ne 1 ] ; then
     echo "usage: $0 <ml file>"
     exit
